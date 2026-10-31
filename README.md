@@ -1,6 +1,6 @@
 # Navarro Technologies
 
-An original, responsive Jekyll company website for **navarrotech.org** in the separate GitHub repository, **[joeynavarro/navarro-technologies](https://github.com/joeynavarro/navarro-technologies)**. The design takes inspiration from the spacious typography and visual presentation of the Made Jekyll theme. It does not contain the paid theme’s source code or demo assets.
+An original, responsive Jekyll company website for Navarro Technologies, focused on **field IT technician work through Field Nation**. It is built for **navarrotech.org** in the separate GitHub repository, **[joeynavarro/navarro-technologies](https://github.com/joeynavarro/navarro-technologies)**. The design takes inspiration from the spacious typography and visual presentation of the Made Jekyll theme. It does not contain the paid theme’s source code or demo assets.
 
 ## Keep the existing personal site separate
 
@@ -41,7 +41,7 @@ The `CNAME` file and `_config.yml` are prepared for the custom domain. They do n
 - Styles and behavior: `assets/css/` and `assets/js/`.
 - Logo and other artwork: `assets/images/`.
 
-The owner confirmed the company contact as **hello@joeynavarro.io**, **915-910-9422**. The configured [Field Nation profile](https://app.fieldnation.com/p/1097046) lists **El Paso, Texas** and was supplied by the owner; viewing it may require sign-in. Service copy groups the verified profile context into computer support and deployments, networks and cabling, and data and technical consulting. Add credentials, coverage areas, customer names, ratings, and completed-project details only after verification.
+The owner confirmed the company contact as **hello@joeynavarro.io**, **915-910-9422**. The configured [Field Nation profile](https://app.fieldnation.com/p/1097046) lists **El Paso, Texas** and was supplied by the owner; viewing it may require sign-in. The primary focus is field IT technician work through Field Nation, with services organized as IT support, networks and cabling, and hardware deployments. Data consulting is secondary background context. Add credentials, coverage areas, customer names, ratings, and completed-project details only after verification.
 
 ## Documentation
 
