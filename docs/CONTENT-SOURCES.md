@@ -9,7 +9,7 @@ Prepared October 31, 2026. This file is excluded from the published website.
 | Atom/database logo | Owner-supplied `db-atom.png` | Supplied by owner |
 | Owner name: Joey Navarro | Existing personal website and authenticated GitHub profile | Verified public identity |
 | Contact: hello@joeynavarro.io; 915-910-9422 | Owner’s confirmation in this chat | Confirmed company contact |
-| Based in El Paso, Texas | Owner’s confirmation in this chat | Confirmed company base; does not establish a wider service territory |
+| Based in El Paso, Texas | Field Nation profile inspected during this task | Listed location; does not establish a wider service territory |
 | Existing site: joeynavarro.io | Existing personal site redirects and repository | Preserve separately |
 | [Field Nation profile 1097046](https://app.fieldnation.com/p/1097046) | Exact link supplied by owner; signed-in profile inspected during this task | Relevant computer support, hardware, networking, data, and consulting context verified; sign-in may be required to view |
 | Computer support and deployments | Verified profile context | Onsite Windows deployments and hardware/peripheral setup |
