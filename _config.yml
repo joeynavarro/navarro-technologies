@@ -1,0 +1,36 @@
+title: Navarro Technologies
+company: Navarro Technologies
+description: "Navarro Technologies provides computer support and deployments, networks and cabling, and data and technical consulting from El Paso, Texas."
+url: "https://navarrotech.org"
+baseurl: ""
+lang: en
+timezone: America/Denver
+author: Joey Navarro
+email: hello@joeynavarro.io
+phone: "915-910-9422"
+phone_link: "+19159109422"
+location: "El Paso, Texas"
+field_nation_url: "https://app.fieldnation.com/p/1097046"
+social_image: /assets/images/navarro-logo.png
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+plugins: []
+strict_front_matter: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs
+  - vendor
+  - .bundle
+  - .github
+  - node_modules
+  - package.json
+  - package-lock.json
+  - scripts
+  - tests
+  - previews
+
