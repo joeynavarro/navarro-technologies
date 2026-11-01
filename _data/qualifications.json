@@ -1,0 +1,260 @@
+{
+  "labels": {
+    "en": {
+      "eyebrow": "EDUCATION & CERTIFICATES",
+      "heading": "Education and continued learning.",
+      "intro": "Academic background and continued technical training.",
+      "education": "EDUCATION",
+      "certificates_heading": "Certificates and technical training",
+      "certificates_intro": "Completed courses and programs in data science, programming, statistics, and related technical subjects.",
+      "resume": "View my IT résumé",
+      "expand_hint": "Select a provider to see the certificates."
+    },
+    "es": {
+      "eyebrow": "EDUCACIÓN Y CERTIFICADOS",
+      "heading": "Educación y formación continua.",
+      "intro": "Formación académica y capacitación técnica continua.",
+      "education": "EDUCACIÓN",
+      "certificates_heading": "Certificados y capacitación técnica",
+      "certificates_intro": "Cursos y programas completados en ciencia de datos, programación, estadística y áreas técnicas relacionadas.",
+      "resume": "Ver mi currículum de TI",
+      "expand_hint": "Selecciona un proveedor de formación para ver los certificados."
+    }
+  },
+  "education": [
+    {
+      "institution": "Walden University",
+      "program": {
+        "en": "Doctor of Information Technology",
+        "es": "Doctorado en Tecnología de la Información"
+      },
+      "status": {
+        "en": "Studies in progress",
+        "es": "Estudios en curso"
+      }
+    },
+    {
+      "institution": "St. Edward's University",
+      "program": {
+        "en": "Master of Science in Leadership and Change",
+        "es": "Maestría en Ciencias en Liderazgo y Cambio"
+      },
+      "status": {
+        "en": "Completed",
+        "es": "Completado"
+      }
+    },
+    {
+      "institution": "The University of Texas at Austin",
+      "program": {
+        "en": "Bachelor of Science and Arts in Biochemistry",
+        "es": "Licenciatura en Ciencias y Artes en Bioquímica"
+      },
+      "status": {
+        "en": "Completed",
+        "es": "Completado"
+      }
+    }
+  ],
+  "providers": [
+    {
+      "name": "University of Pennsylvania via Coursera",
+      "name_es": "Universidad de Pensilvania · Coursera",
+      "context": {
+        "en": "Online, non-credit coursework authorized by the University of Pennsylvania and offered through Coursera.",
+        "es": "Curso en línea sin créditos académicos, autorizado por University of Pennsylvania y ofrecido a través de Coursera."
+      },
+      "certificates": [
+        {
+          "title": {
+            "en": "Computational Thinking for Problem Solving",
+            "es": "Pensamiento computacional para la resolución de problemas"
+          },
+          "year": "2020"
+        }
+      ]
+    },
+    {
+      "name": "General Assembly",
+      "context": {
+        "en": "Course completion certificates documenting 480 hours of immersive data science instruction and 40 hours of Python programming instruction.",
+        "es": "Certificados de finalización que documentan 480 horas de formación intensiva en ciencia de datos y 40 horas de formación en programación con Python."
+      },
+      "certificates": [
+        {
+          "title": {
+            "en": "Data Science Immersive Remote",
+            "es": "Programa intensivo remoto de ciencia de datos"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Python Programming",
+            "es": "Programación en Python"
+          },
+          "year": "2020"
+        }
+      ]
+    },
+    {
+      "name": "HarvardX via edX",
+      "name_es": "HarvardX · edX",
+      "context": {
+        "en": "Online course completion certificates from HarvardX, an online learning initiative of Harvard University, through edX.",
+        "es": "Certificados de finalización de cursos en línea de HarvardX, una iniciativa de aprendizaje en línea de Harvard University, a través de edX."
+      },
+      "certificates": [
+        {
+          "title": {
+            "en": "PH125.1x: Data Science: R Basics",
+            "es": "PH125.1x: Ciencia de datos: fundamentos de R"
+          },
+          "year": "2018"
+        },
+        {
+          "title": {
+            "en": "PH125.4x: Data Science: Inference and Modeling",
+            "es": "PH125.4x: Ciencia de datos: inferencia y modelado"
+          },
+          "year": "2018"
+        },
+        {
+          "title": {
+            "en": "PH525.2x: Introduction to Linear Models and Matrix Algebra",
+            "es": "PH525.2x: Introducción a los modelos lineales y el álgebra matricial"
+          },
+          "year": "2018"
+        },
+        {
+          "title": {
+            "en": "PH125.3x: Data Science: Probability",
+            "es": "PH125.3x: Ciencia de datos: probabilidad"
+          },
+          "year": "2018"
+        },
+        {
+          "title": {
+            "en": "PH525.1x: Statistics and R",
+            "es": "PH525.1x: Estadística y R"
+          },
+          "year": "2018"
+        },
+        {
+          "title": {
+            "en": "PH125.2x: Data Science: Visualization",
+            "es": "PH125.2x: Ciencia de datos: visualización"
+          },
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "name": "Codecademy",
+      "context": {
+        "en": "Completed courses, Skill Paths, and Career Paths in programming, computer science, and data analysis.",
+        "es": "Cursos y rutas de aprendizaje de programación, ciencias de la computación y análisis de datos completados."
+      },
+      "certificates": [
+        {
+          "title": {
+            "en": "Analyze Data with SQL Skill Path",
+            "es": "Ruta de habilidades: analizar datos con SQL"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Build a Machine Learning Model with Python Skill Path",
+            "es": "Ruta de habilidades: crear un modelo de aprendizaje automático con Python"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Computer Science Career Path",
+            "es": "Ruta profesional de ciencias de la computación"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Data Science Career Path",
+            "es": "Ruta profesional de ciencia de datos"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "How to Clean Data with Python Course",
+            "es": "Curso: cómo limpiar datos con Python"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "How to Implement Search Algorithms with Python Course",
+            "es": "Curso: cómo implementar algoritmos de búsqueda con Python"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Learn Complex Data Structures Course",
+            "es": "Curso: aprender estructuras de datos complejas"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Learn Data Analysis with Pandas Course",
+            "es": "Curso: aprender análisis de datos con Pandas"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Learn Recursion with Python Course",
+            "es": "Curso: aprender recursión con Python"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Learn Sorting Algorithms with Python Course",
+            "es": "Curso: aprender algoritmos de ordenamiento con Python"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Learn Statistics with NumPy Course",
+            "es": "Curso: aprender estadística con NumPy"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Learn Statistics with Python Course",
+            "es": "Curso: aprender estadística con Python"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Learn Web Scraping with Beautiful Soup Course",
+            "es": "Curso: aprender extracción de datos web con Beautiful Soup"
+          },
+          "year": "2020"
+        },
+        {
+          "title": {
+            "en": "Linear Data Structures Course",
+            "es": "Curso de estructuras de datos lineales"
+          },
+          "year": "2020"
+        }
+      ]
+    }
+  ]
+}

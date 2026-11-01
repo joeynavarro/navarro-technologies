@@ -31,6 +31,10 @@ The owner’s latest direction makes field IT technician work through Field Nati
 | Data and technical consulting | Verified profile context | Secondary background context: data analytics and AI consulting |
 | Ukko design reference | [Ukko demo](https://demo.cocobasic.com/ukko-react/?storefront=envato-elements) supplied in the owner’s latest design direction | Original Jekyll implementation inspired by the visible layout and styling; no paid template source or demo assets copied |
 
-The company copy is a first draft for owner review. It must not be treated as evidence of completed work, certifications, service territory, customer relationships, response guarantees, or performance statistics. Add portfolio projects only after the owner supplies project facts and approves any customer-identifying material.
+University names and degree programs come from the owner-supplied IT résumé. The Walden doctorate is marked in progress, consistent with the current Field Nation profile. The 23 certificate titles and years were checked against the supplied PDF contents and grouped by provider. General Assembly training, HarvardX/edX courses, University of Pennsylvania/Coursera coursework, and Codecademy courses/paths are presented as certificate training, separately from degrees. No certificate identifiers or raw PDF files are published.
+
+English and Spanish pages share the same service, education, and portfolio facts. Translations cover page copy, navigation, metadata, accessibility labels, certificate titles, and contact feedback. Brand names, equipment models, and school names retain their proper names. External documents and websites have their own language content.
+
+Do not treat site copy as proof of manufacturer authorization, service territory, customer relationships, response guarantees, or repair outcomes not supported by the records. Add future portfolio projects only after verifying their completed status and public summary.
 
 Publication configuration lives in `_config.yml` and `CNAME`; actual repository creation, build completion, domain records, and HTTPS availability need live checks. The existing personal site is outside this new project’s scope.

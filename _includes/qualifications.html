@@ -1,0 +1,22 @@
+{% assign qualifications = site.data.qualifications %}
+{% assign locale = page.lang | default: 'en' %}
+{% assign labels = qualifications.labels[locale] %}
+<section id="qualifications" class="qualifications-section wrap" aria-labelledby="qualifications-title">
+  <div class="section-heading"><div><span class="eyebrow">{{ labels.eyebrow }}</span><h2 id="qualifications-title">{{ labels.heading }}</h2></div><p>{{ labels.intro }}</p></div>
+  <div class="education-grid">
+    {% for school in qualifications.education %}
+    <article class="education-card"><p class="education-type">{{ labels.education }}</p><h3>{{ school.institution | escape }}</h3><p class="education-program">{{ school.program[locale] | escape }}</p><p class="education-status">{{ school.status[locale] | escape }}</p></article>
+    {% endfor %}
+  </div>
+  <div class="certificates-intro"><h3>{{ labels.certificates_heading }}</h3><p>{{ labels.certificates_intro }} {{ labels.expand_hint }}</p></div>
+  <div class="certificate-groups">
+    {% for provider in qualifications.providers %}
+    <details class="certificate-group"{% if provider.name == 'General Assembly' %} open{% endif %}>
+      <summary><span class="provider">{% if locale == 'es' and provider.name_es %}{{ provider.name_es | escape }}{% else %}{{ provider.name | escape }}{% endif %}</span><span class="certificate-count">{{ provider.certificates.size }}</span></summary>
+      <p class="provider-context">{{ provider.context[locale] | escape }}</p>
+      <ul class="certificate-list">{% for certificate in provider.certificates %}<li><span class="certificate-title">{{ certificate.title[locale] | escape }}</span>{% if certificate.year %}<span class="certificate-date">{{ certificate.year | escape }}</span>{% endif %}</li>{% endfor %}</ul>
+    </details>
+    {% endfor %}
+  </div>
+  <div class="qualification-links"><a class="text-link" href="{{ site.resume_url }}" target="_blank" rel="noopener noreferrer">{{ labels.resume }} <span aria-hidden="true">↗</span></a></div>
+</section>

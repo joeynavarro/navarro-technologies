@@ -1,48 +1,79 @@
 {
   "total_count": 82,
   "verified_on": "October 31, 2026",
+  "verified_on_es": "31 de octubre de 2026",
   "jobs": [
     {
       "category": "Printer service",
       "title": "Fujifilm CX3240 image-quality service",
       "summary": "Completed an image-quality service work order for a Fujifilm CX3240 printer, including the recorded multi-tray test-print task.",
       "location": "El Paso, Texas",
-      "completed": "October 2026"
+      "completed": "October 2026",
+      "category_es": "Servicio de impresoras",
+      "title_es": "Servicio de calidad de imagen para Fujifilm CX3240",
+      "summary_es": "Se completó una orden de servicio de calidad de imagen para una impresora Fujifilm CX3240 que incluía pruebas de impresión desde varias bandejas.",
+      "location_es": "El Paso, Texas",
+      "completed_es": "Octubre de 2026"
     },
     {
       "category": "Label-printer hardware",
       "title": "Zebra printer component service",
       "summary": "Completed a Field Nation component-service assignment involving Zebra 105SL+ printhead and ZT410 toggle-bar hardware.",
       "location": "El Paso, Texas",
-      "completed": "September 2026"
+      "completed": "September 2026",
+      "category_es": "Componentes de impresoras de etiquetas",
+      "title_es": "Servicio de componentes para impresoras Zebra",
+      "summary_es": "Se completó una asignación de servicio de componentes a través de Field Nation que incluía un cabezal de impresión Zebra 105SL+ y el mecanismo de presión de una ZT410.",
+      "location_es": "El Paso, Texas",
+      "completed_es": "Septiembre de 2026"
     },
     {
       "category": "Poster-printer service",
       "title": "Epson P6000 paper-feed service",
       "summary": "Completed a poster-printer paper-feed service assignment, including the recorded nozzle-test and production-print tasks.",
       "location": "Las Cruces, New Mexico",
-      "completed": "August 2026"
+      "completed": "August 2026",
+      "category_es": "Servicio de impresoras de carteles",
+      "title_es": "Servicio de alimentación de papel para Epson P6000",
+      "summary_es": "Se completó una asignación de servicio de alimentación de papel para una impresora de carteles que incluía una prueba de inyectores y una impresión de producción.",
+      "location_es": "Las Cruces, Nuevo México",
+      "completed_es": "Agosto de 2026"
     },
     {
       "category": "Large-screen TV service",
       "title": "98-inch TV component service",
       "summary": "Completed an on-site field-service assignment for a 98-inch TV parts swap.",
       "location": "El Paso, Texas",
-      "completed": "October 2026"
+      "completed": "October 2026",
+      "category_es": "Servicio de televisores de gran formato",
+      "title_es": "Servicio de componentes para un televisor de 98 pulgadas",
+      "summary_es": "Se completó una asignación de servicio en sitio para reemplazar piezas de un televisor de 98 pulgadas.",
+      "location_es": "El Paso, Texas",
+      "completed_es": "Octubre de 2026"
     },
     {
       "category": "Computer setup",
       "title": "On-site workstation configuration",
       "summary": "Completed a workstation configuration assignment through Field Nation, providing hands-on setup support at the site.",
       "location": "El Paso, Texas",
-      "completed": "September 2026"
+      "completed": "September 2026",
+      "category_es": "Configuración de computadoras",
+      "title_es": "Configuración de una estación de trabajo en sitio",
+      "summary_es": "Se completó una asignación de configuración de una estación de trabajo a través de Field Nation, con apoyo técnico presencial en el lugar.",
+      "location_es": "El Paso, Texas",
+      "completed_es": "Septiembre de 2026"
     },
     {
       "category": "Wireless & cabling",
       "title": "Access-point cabling troubleshooting",
       "summary": "Completed an after-hours access-point cabling troubleshooting assignment.",
       "location": "Hobbs, New Mexico",
-      "completed": "September 2026"
+      "completed": "September 2026",
+      "category_es": "Redes inalámbricas y cableado",
+      "title_es": "Diagnóstico de cableado de un punto de acceso",
+      "summary_es": "Se completó una asignación fuera del horario habitual para diagnosticar problemas en el cableado de un punto de acceso.",
+      "location_es": "Hobbs, Nuevo México",
+      "completed_es": "Septiembre de 2026"
     }
   ]
 }

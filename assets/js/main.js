@@ -1,4 +1,33 @@
 (() => {
+  const language = document.body.dataset.language || 'en';
+  const languageLinks = document.querySelectorAll('[data-language-choice]');
+  const preferenceKey = 'navarro-language';
+  const rememberLanguage = value => {
+    try { localStorage.setItem(preferenceKey, value); } catch { /* Links still work when storage is unavailable. */ }
+  };
+  const updateLanguageLinks = () => {
+    languageLinks.forEach(link => {
+      const path = link.dataset.languageChoice === 'es'
+        ? document.body.dataset.spanishPage : document.body.dataset.englishPage;
+      link.href = path + window.location.hash;
+    });
+  };
+  updateLanguageLinks();
+  window.addEventListener('hashchange', updateLanguageLinks);
+  languageLinks.forEach(link => link.addEventListener('click', () => {
+    rememberLanguage(link.dataset.languageChoice);
+  }));
+  let savedLanguage;
+  try { savedLanguage = localStorage.getItem(preferenceKey); } catch { /* Storage is optional. */ }
+  const englishPath = document.body.dataset.englishPage;
+  if (language === 'en' && savedLanguage === 'es' &&
+      (window.location.pathname === englishPath ||
+       (englishPath === '/' && window.location.pathname === '/index.html'))) {
+    window.location.replace(document.body.dataset.spanishPage + window.location.search + window.location.hash);
+    return;
+  }
+  if (language === 'es') rememberLanguage('es');
+
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('#main-nav');
   toggle?.addEventListener('click', () => {
@@ -22,12 +51,12 @@
   copy?.addEventListener('click', async () => {
     try {
       await navigator.clipboard.writeText(copy.dataset.email);
-      status.textContent = 'Email address copied.';
+      status.textContent = document.body.dataset.copySuccess;
     } catch {
-      status.textContent = `Email us at ${copy.dataset.email}.`;
+      status.textContent = document.body.dataset.copyFallback.replace('{email}', copy.dataset.email);
     }
   });
-  const sectionIds = ['top', 'services', 'stories', 'portfolio', 'about', 'contact'];
+  const sectionIds = ['top', 'services', 'stories', 'portfolio', 'qualifications', 'about', 'contact'];
   const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
   const counter = document.querySelector('#current-section');
   let scheduled = false;

@@ -6,5 +6,8 @@ layout: null
   <url>
     <loc>{{ '/' | absolute_url | xml_escape }}</loc>
   </url>
+  <url>
+    <loc>{{ '/es/' | absolute_url | xml_escape }}</loc>
+  </url>
 </urlset>
 

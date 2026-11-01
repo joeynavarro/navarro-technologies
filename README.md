@@ -33,11 +33,18 @@ The site uses standard Jekyll and Liquid with no custom plugins. Plain CSS and J
 
 The `CNAME` file and `_config.yml` are prepared for the custom domain. They do not prove that a repository, Pages deployment, DNS, or HTTPS certificate is already configured. See [GitHub’s publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
+## English and Spanish
+
+The visible English / Español switch is available in the desktop sidebar and mobile header. Visitors can switch without losing their current section, and their choice is remembered in their browser when local storage is available. English is the default for new visitors; the complete Spanish homepage is at `/es/`.
+
+Keep `index.html` and `es/index.html` in sync when changing service copy. Shared navigation, footer, accessibility labels, and copy-email messages are in `_data/ui.yml`. Each completed-job record in `_data/completed_jobs.json` contains English fields and matching `_es` Spanish fields. Business names, model numbers, contact details, and external links stay consistent across both languages. The linked Google résumé and third-party websites retain their own content.
+
 ## Update content
 
 - Company name, description, contact address, and canonical domain: `_config.yml`.
 - Main content and sections: `index.html`.
 - Completed-job portfolio and dated history count: `_data/completed_jobs.json`. Add only verified completed assignments, keeping client and site details private.
+- School and certificate mentions in both languages: `_data/qualifications.json`, rendered by `_includes/qualifications.html`. The 23 certificate titles were checked against the supplied PDFs; course certificates are listed separately from university education.
 - Shared page wrapper and metadata: `_layouts/default.html`.
 - Styles and behavior: `assets/css/` and `assets/js/`.
 - Logo and other artwork: `assets/images/`.
