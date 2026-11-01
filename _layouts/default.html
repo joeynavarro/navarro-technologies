@@ -14,28 +14,36 @@
   <meta property="og:image" content="{{ site.social_image | absolute_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/images/navarro-logo.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/field-services.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/ukko-inspired.css' | relative_url }}">
   <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Navarro Technologies home">
+  <aside class="site-sidebar" aria-label="Site navigation">
+    <div class="section-counter" aria-label="Current section"><span id="current-section">01</span><span aria-hidden="true">/</span><span>06</span></div>
+    <a class="sidebar-brand" href="{{ '/' | relative_url }}#top" aria-label="Navarro Technologies home">
       <img src="{{ '/assets/images/navarro-logo.png' | relative_url }}" alt="" width="43" height="49">
       <span>NAVARRO<span>TECHNOLOGIES</span></span>
     </a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">＋</span></button>
     <nav id="main-nav" aria-label="Main navigation">
+      <a class="is-active" href="{{ '/' | relative_url }}#top" data-section="top">Home</a>
       <a href="{{ '/' | relative_url }}#services">Services</a>
+      <a href="{{ '/' | relative_url }}#stories">Service stories</a>
+      <a href="{{ '/' | relative_url }}#portfolio">Completed work</a>
       <a href="{{ '/' | relative_url }}#about">About</a>
       <a href="{{ '/' | relative_url }}#contact">Contact</a>
-      <a class="nav-contact" href="{{ site.field_nation_url }}" target="_blank" rel="noopener noreferrer">Field Nation <span aria-hidden="true">↗</span></a>
+      <div class="sidebar-links"><a class="sidebar-profile" href="{{ site.field_nation_url }}" target="_blank" rel="noopener noreferrer">Field Nation ↗</a><a href="{{ site.resume_url }}" target="_blank" rel="noopener noreferrer">IT Résumé ↗</a><a href="https://joeynavarro.io" target="_blank" rel="noopener noreferrer">Academic &amp; research ↗</a><a href="https://www.facebook.com/groups/itjobselpaso" target="_blank" rel="noopener noreferrer">El Paso Jobs ↗</a></div>
     </nav>
-  </header>
+  </aside>
+  <div class="page-shell">
   <main id="main">{{ content }}</main>
   <footer class="site-footer wrap">
     <a class="footer-wordmark" href="{{ '/' | relative_url }}">Navarro Technologies</a>
-    <p>Practical technology. Personal service.</p>
-    <div><span>© {{ 'now' | date: '%Y' }} Navarro Technologies</span><a href="{{ '/' | relative_url }}#top">Back to top ↑</a></div>
+    <p>Field IT services through Field Nation. <a class="inline-link" href="https://joeynavarro.io" target="_blank" rel="noopener noreferrer">Academic &amp; research website ↗</a></p>
+    <div><span>© {{ 'now' | date: '%Y' }} Navarro Technologies</span><a href="https://www.facebook.com/groups/itjobselpaso" target="_blank" rel="noopener noreferrer">El Paso Jobs group ↗</a><a href="{{ '/' | relative_url }}#top">Back to top ↑</a></div>
   </footer>
+  </div>
 </body>
 </html>

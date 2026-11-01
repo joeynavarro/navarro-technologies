@@ -1,6 +1,6 @@
 # Navarro Technologies
 
-An original, responsive Jekyll company website for Navarro Technologies, focused on **field IT technician work through Field Nation**. It is built for **navarrotech.org** in the separate GitHub repository, **[joeynavarro/navarro-technologies](https://github.com/joeynavarro/navarro-technologies)**. The design takes inspiration from the spacious typography and visual presentation of the Made Jekyll theme. It does not contain the paid theme’s source code or demo assets.
+An original, responsive Jekyll company website for Navarro Technologies, focused on **field IT technician work through Field Nation**. The main services are printer service, low-voltage cabling, server and rack setup, TVs, wireless access points, and computer installation and initialization. It is built for **navarrotech.org** in the separate GitHub repository, **[joeynavarro/navarro-technologies](https://github.com/joeynavarro/navarro-technologies)**. The design follows the owner’s latest [Ukko reference](https://demo.cocobasic.com/ukko-react/): a fixed right sidebar, large coral typography, pale backgrounds, a prominent portrait, and scrolling sections. This original Jekyll implementation contains no paid template source or demo assets.
 
 ## Keep the existing personal site separate
 
@@ -37,11 +37,12 @@ The `CNAME` file and `_config.yml` are prepared for the custom domain. They do n
 
 - Company name, description, contact address, and canonical domain: `_config.yml`.
 - Main content and sections: `index.html`.
+- Completed-job portfolio and dated history count: `_data/completed_jobs.json`. Add only verified completed assignments, keeping client and site details private.
 - Shared page wrapper and metadata: `_layouts/default.html`.
 - Styles and behavior: `assets/css/` and `assets/js/`.
 - Logo and other artwork: `assets/images/`.
 
-The owner confirmed the company contact as **hello@joeynavarro.io**, **915-910-9422**. The configured [Field Nation profile](https://app.fieldnation.com/p/1097046) lists **El Paso, Texas** and was supplied by the owner; viewing it may require sign-in. The primary focus is field IT technician work through Field Nation, with services organized as IT support, networks and cabling, and hardware deployments. Data consulting is secondary background context. Add credentials, coverage areas, customer names, ratings, and completed-project details only after verification.
+The owner confirmed the company contact as **hello@joeynavarro.io**, **915-910-9422**. The configured [Field Nation profile](https://app.fieldnation.com/p/1097046) lists **El Paso, Texas** and was supplied by the owner; viewing it may require sign-in. The primary focus is field IT technician work through Field Nation. The six service sections describe concrete work supplied by the owner: service for Zebra, Epson poster, Fujifilm, and Honeywell printers; low-voltage cabling; server setup including racks; TVs; access-point installation, initialization, and configuration; and computer installation and initialization. These are service descriptions, not claims about completed customer projects, manufacturer authorization, or certifications. Data consulting is secondary background context. Add credentials, coverage areas, customer names, ratings, and completed-project details only after verification.
 
 ## Documentation
 

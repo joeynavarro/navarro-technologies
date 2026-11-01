@@ -1,0 +1,48 @@
+{
+  "total_count": 82,
+  "verified_on": "October 31, 2026",
+  "jobs": [
+    {
+      "category": "Printer service",
+      "title": "Fujifilm CX3240 image-quality service",
+      "summary": "Completed an image-quality service work order for a Fujifilm CX3240 printer, including the recorded multi-tray test-print task.",
+      "location": "El Paso, Texas",
+      "completed": "October 2026"
+    },
+    {
+      "category": "Label-printer hardware",
+      "title": "Zebra printer component service",
+      "summary": "Completed a Field Nation component-service assignment involving Zebra 105SL+ printhead and ZT410 toggle-bar hardware.",
+      "location": "El Paso, Texas",
+      "completed": "September 2026"
+    },
+    {
+      "category": "Poster-printer service",
+      "title": "Epson P6000 paper-feed service",
+      "summary": "Completed a poster-printer paper-feed service assignment, including the recorded nozzle-test and production-print tasks.",
+      "location": "Las Cruces, New Mexico",
+      "completed": "August 2026"
+    },
+    {
+      "category": "Large-screen TV service",
+      "title": "98-inch TV component service",
+      "summary": "Completed an on-site field-service assignment for a 98-inch TV parts swap.",
+      "location": "El Paso, Texas",
+      "completed": "October 2026"
+    },
+    {
+      "category": "Computer setup",
+      "title": "On-site workstation configuration",
+      "summary": "Completed a workstation configuration assignment through Field Nation, providing hands-on setup support at the site.",
+      "location": "El Paso, Texas",
+      "completed": "September 2026"
+    },
+    {
+      "category": "Wireless & cabling",
+      "title": "Access-point cabling troubleshooting",
+      "summary": "Completed an after-hours access-point cabling troubleshooting assignment.",
+      "location": "Hobbs, New Mexico",
+      "completed": "September 2026"
+    }
+  ]
+}

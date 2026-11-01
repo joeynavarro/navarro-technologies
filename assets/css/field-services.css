@@ -1,0 +1,379 @@
+/* Concrete field-service presentation; loaded after the shared site styles. */
+.field-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(260px, .9fr);
+  align-items: center;
+  gap: 70px;
+  padding-block: 62px 64px;
+}
+.field-hero-copy { min-width: 0; }
+.field-hero h1 {
+  max-width: 730px;
+  margin: 24px 0 27px;
+  font-size: clamp(48px, 5.5vw, 72px);
+  line-height: 1.1;
+  letter-spacing: -3px;
+}
+.field-hero h1 span { color: #617779; }
+.field-intro {
+  max-width: 650px;
+  color: var(--ink);
+  font-size: 20px;
+  line-height: 1.65;
+}
+.field-summary {
+  max-width: 650px;
+  margin-top: 17px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+.field-hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 29px;
+}
+.field-hero-actions .text-link { font-size: 12px; }
+.hero-portrait { width: 100%; margin: 0; }
+.hero-portrait img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 4.7;
+  object-fit: cover;
+  object-position: center 32%;
+  border-radius: 3px;
+  background: #e1e8e2;
+}
+.hero-portrait figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding-top: 14px;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.hero-portrait figcaption span {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+.service-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  padding-block: 0;
+}
+.service-strip a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  min-height: 63px;
+  padding: 15px 22px;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 1.5;
+}
+.service-strip a:nth-child(3n) { border-right: 0; }
+.service-strip a:nth-child(3n + 1) { padding-left: 0; }
+.service-strip a:nth-child(n + 4) { border-bottom: 0; }
+.service-strip a:hover { color: #006d7b; background: #edf3ef; }
+.service-strip a:focus-visible { position: relative; z-index: 1; outline-offset: -4px; }
+.service-strip a b { font-weight: 400; font-size: 17px; }
+.feature-visual { height: 420px; }
+
+/* A desktop printer with an emerging test sheet. */
+.printer-visual { background: #e5ede9; }
+.printer-machine {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  width: 280px;
+  height: 280px;
+  transform: translateX(-50%) rotate(-4deg);
+  transform-origin: top center;
+}
+.printer-back {
+  position: absolute;
+  top: 0;
+  left: 46px;
+  width: 188px;
+  height: 95px;
+  border: 8px solid #879b99;
+  border-bottom: 0;
+  border-radius: 9px 9px 0 0;
+  background: repeating-linear-gradient(0deg, #b7c7c1 0 8px, #aebfba 8px 10px);
+}
+.printer-body {
+  height: 144px;
+  margin-top: 57px;
+  border: 1px solid #214554;
+  border-bottom: 16px solid #143a4b;
+  border-radius: 19px 19px 15px 15px;
+  background: linear-gradient(145deg, #426776, #234655);
+  box-shadow: 12px 18px 22px #0c355425;
+}
+.printer-body::after {
+  content: '';
+  position: absolute;
+  top: 141px;
+  left: 30px;
+  right: 30px;
+  height: 18px;
+  border-radius: 6px;
+  background: #102c3b;
+  box-shadow: inset 0 3px 5px #071c26;
+}
+.printer-status {
+  position: absolute;
+  top: 86px;
+  left: 28px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #64e7b8;
+  box-shadow: 0 0 9px #6fe5bb66;
+}
+.printer-display {
+  position: absolute;
+  top: 79px;
+  right: 25px;
+  min-width: 64px;
+  padding: 4px 8px;
+  border: 3px solid #193a49;
+  border-radius: 4px;
+  background: #b7e2ce;
+  color: #214d43;
+  text-align: center;
+  font: 650 8px/1.4 var(--body);
+  letter-spacing: 1px;
+}
+.printer-paper {
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  left: 50%;
+  width: 173px;
+  height: 141px;
+  padding: 23px 22px;
+  transform: translateX(-50%);
+  background: linear-gradient(#e3e9e3, #fff 18%);
+  box-shadow: 4px 9px 11px #193b4a20;
+}
+.printer-paper b {
+  display: block;
+  color: #214858;
+  font-size: 10px;
+  line-height: 1.3;
+  letter-spacing: 1.1px;
+  margin-bottom: 13px;
+}
+.printer-paper i { display: block; height: 5px; margin-top: 7px; background: #bfd5ca; }
+.printer-paper i:nth-of-type(2) { width: 83%; background: #159e99; }
+.printer-paper i:nth-of-type(3) { width: 93%; }
+.printer-paper i:nth-of-type(4) { width: 65%; }
+.printer-brands {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 19px;
+  text-align: center;
+  color: #395c5b;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: .65px;
+}
+
+/* Rack-mounted equipment, front rails and five server units. */
+.rack-visual { background: var(--navy); color: #e8f3f2; }
+.rack-visual .visual-label { color: #bed4d8; }
+.server-rack {
+  position: absolute;
+  top: 71px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 218px;
+  height: 283px;
+  padding: 18px 16px;
+  transform: translateX(-50%) rotate(-4deg);
+  transform-origin: top center;
+  border: 8px solid #487487;
+  border-radius: 7px;
+  background: #071f2c;
+  box-shadow: 20px 20px 24px #061d2a44;
+}
+.server-rack::before,
+.server-rack::after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  bottom: 9px;
+  width: 3px;
+  background: repeating-linear-gradient(#819ca6 0 3px, transparent 3px 12px);
+}
+.server-rack::before { left: 5px; }
+.server-rack::after { right: 5px; }
+.rack-unit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  flex: 1;
+  min-height: 0;
+  padding: 0 10px;
+  border: 1px solid #557684;
+  border-radius: 3px;
+  background: linear-gradient(150deg, #365365, #203d4e);
+  box-shadow: 0 3px 0 #071a26;
+}
+.rack-unit b { width: 5px; height: 5px; margin-right: auto; border-radius: 50%; background: #61e5bf; }
+.rack-unit i { width: 13px; height: 8px; border: 1px solid #68838a; border-radius: 1px; background: #0c2634; }
+.rack-label {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  text-align: center;
+  font-size: 8px;
+  letter-spacing: 1.4px;
+  color: #bed4d8;
+}
+
+/* A television on a stand with a simple signal pattern. */
+.tv-visual { background: #e3e9f1; }
+.tv-set {
+  position: absolute;
+  width: 325px;
+  height: 195px;
+  top: 98px;
+  left: 50%;
+  padding: 10px;
+  transform: translateX(-50%) rotate(-4deg);
+  border: 2px solid #223e4f;
+  border-bottom-width: 8px;
+  border-radius: 8px;
+  background: #173143;
+  box-shadow: 15px 20px 24px #213d5625;
+}
+.tv-screen { display: grid; place-items: center; height: 100%; overflow: hidden; background: #b9d8d7; }
+.tv-screen svg { width: 100%; height: 100%; stroke: #377680; stroke-width: 3; }
+.tv-stand {
+  position: absolute;
+  left: 50%;
+  top: 290px;
+  width: 108px;
+  height: 32px;
+  transform: translateX(-50%) rotate(-4deg);
+  border-bottom: 8px solid #647a87;
+  background: linear-gradient(90deg, transparent 42%, #7a919c 42% 58%, transparent 58%);
+  border-radius: 3px;
+}
+.tv-badge {
+  position: absolute;
+  right: 25px;
+  bottom: 31px;
+  padding: 10px 15px;
+  transform: rotate(3deg);
+  background: #fff;
+  color: #3c5a65;
+  box-shadow: 0 8px 17px #17314312;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: .8px;
+}
+
+/* Ceiling access point with its status light and radio rings. */
+.ap-visual { background: #e0eee6; }
+.ap-ring {
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  width: 295px;
+  height: 295px;
+  transform: translate(-50%, -50%);
+  border: 1px solid #a8cbbc;
+  border-radius: 50%;
+}
+.ap-ring + .ap-ring { width: 365px; height: 365px; border-style: dashed; opacity: .6; }
+.access-point {
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 213px;
+  height: 213px;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  border-bottom: 8px solid #c6d5ce;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #fff, #f2f5f1 70%);
+  box-shadow: 15px 19px 24px #204f4426;
+}
+.access-point::before { content: ''; position: absolute; inset: 19px; border: 1px solid #dbe4dc; border-radius: 50%; }
+.ap-led { width: 52px; height: 52px; border: 4px solid #14a9b2; border-radius: 50%; box-shadow: 0 0 15px #05acc225; }
+.ap-step {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  color: #3f665b;
+  text-align: center;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+}
+
+@media (max-width: 1100px) {
+  .field-hero { grid-template-columns: minmax(0, 1.4fr) minmax(235px, .8fr); gap: 38px; padding-block: 50px; }
+  .field-hero h1 { font-size: 54px; letter-spacing: -2.5px; }
+  .field-intro { font-size: 18px; }
+  .field-summary { font-size: 14px; }
+  .hero-portrait figcaption { flex-direction: column; gap: 2px; }
+  .field-hero-actions { gap: 20px; }
+  .service-strip a { font-size: 12px; padding-inline: 17px; }
+}
+@media (max-width: 760px) {
+  .field-hero { grid-template-columns: 1fr; gap: 28px; padding-block: 28px 33px; }
+  .hero-portrait { order: -1; display: flex; align-items: center; gap: 20px; }
+  .hero-portrait img { flex: 0 0 126px; width: 126px; height: 126px; aspect-ratio: 1; object-position: center 30%; }
+  .hero-portrait figcaption { display: flex; align-items: flex-start; gap: 5px; padding-top: 0; font-size: 11px; line-height: 1.6; }
+  .hero-portrait figcaption span { font-size: 9px; letter-spacing: .5px; }
+  .field-hero h1 { margin: 18px 0 20px; font-size: clamp(42px, 9vw, 62px); line-height: 1.08; letter-spacing: -2px; }
+  .field-intro { font-size: 17px; line-height: 1.65; }
+  .field-summary { margin-top: 14px; font-size: 14px; line-height: 1.75; }
+  .field-hero-actions { margin-top: 24px; gap: 20px; }
+  .field-hero-actions .text-link { font-size: 11px; }
+  .service-strip a { min-height: 70px; gap: 6px; padding: 13px 10px; font-size: 10px; }
+  .service-strip a b { font-size: 14px; }
+  .feature-visual { height: 360px; }
+  .printer-machine { top: 72px; transform: translateX(-50%) scale(.86) rotate(-4deg); }
+  .printer-brands { left: 15px; right: 15px; bottom: 17px; font-size: 7px; letter-spacing: .3px; }
+  .server-rack { top: 62px; transform: translateX(-50%) scale(.86) rotate(-4deg); }
+  .rack-label { bottom: 21px; font-size: 7px; }
+  .tv-set { top: 88px; width: 280px; height: 168px; }
+  .tv-stand { top: 253px; height: 29px; width: 92px; }
+  .tv-badge { right: 20px; bottom: 26px; font-size: 7px; }
+  .ap-ring { width: 260px; height: 260px; }
+  .ap-ring + .ap-ring { width: 325px; height: 325px; }
+  .access-point { width: 190px; height: 190px; }
+  .ap-step { bottom: 23px; font-size: 7px; }
+}
+@media (max-width: 360px) {
+  .hero-portrait { gap: 15px; }
+  .hero-portrait img { flex-basis: 110px; width: 110px; height: 110px; }
+  .hero-portrait figcaption { font-size: 10px; }
+  .service-strip a { font-size: 9px; padding-inline: 7px; }
+  .tv-set { width: 250px; height: 153px; top: 93px; }
+  .tv-stand { top: 243px; }
+}

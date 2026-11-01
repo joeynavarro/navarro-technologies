@@ -1,6 +1,6 @@
 title: Navarro Technologies
 company: Navarro Technologies
-description: "Field IT technician based in El Paso, Texas. On-site computer support, networking, cabling, and hardware deployments through Field Nation."
+description: "El Paso field IT technician on Field Nation. Printer service, low-voltage cabling, server and rack setup, TVs, access points, and computer installation."
 url: "https://navarrotech.org"
 baseurl: ""
 lang: en
@@ -11,6 +11,7 @@ phone: "915-910-9422"
 phone_link: "+19159109422"
 location: "El Paso, Texas"
 field_nation_url: "https://app.fieldnation.com/p/1097046"
+resume_url: "https://docs.google.com/document/d/1aEmEgxHjfbHXxFERF2I5Djmgbz2LwnVOpd98lRBD-IY/edit?usp=sharing"
 social_image: /assets/images/navarro-logo.png
 
 markdown: kramdown

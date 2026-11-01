@@ -2,7 +2,7 @@
 
 Prepared October 31, 2026. This file is excluded from the published website.
 
-The owner’s latest direction makes field IT technician work through Field Nation the company’s main focus. The primary service groups are IT support, networks and cabling, and hardware deployments. Data consulting is secondary context rather than a primary service section.
+The owner’s latest direction makes field IT technician work through Field Nation the company’s main focus and asks for concrete service stories. The six primary service sections cover printer service, low-voltage cabling, server and rack setup, TVs, wireless access points, and computer installation and initialization. Data consulting is secondary context rather than a primary service section. The service stories describe offered work; they do not invent completed customer projects.
 
 | Item | Source | Status |
 | --- | --- | --- |
@@ -10,6 +10,10 @@ The owner’s latest direction makes field IT technician work through Field Nati
 | Intended domain: navarrotech.org | Owner’s request; owner says the domain was purchased | Ownership stated by owner; DNS connection requires verification |
 | Atom/database logo | Owner-supplied `db-atom.png` | Supplied by owner |
 | Portrait of Joey Navarro | Owner requested the picture from [joeynavarro.io](https://joeynavarro.io/images/01.JPG) | Copied unchanged from the matching original; public and local file hashes agree |
+| [El Paso Jobs Facebook group](https://www.facebook.com/groups/itjobselpaso) | Owner supplied the link and stated that he created the group | Linked as a local community group |
+| IT Résumé | Exact Google Doc supplied by owner | Drive metadata confirms title IT Resume and anyone-with-the-link reader access; linked without changing sharing |
+| Completed-job portfolio | Selected Completed tab in signed-in Field Nation; six individual Paid/completed work orders and completion records checked | Six public summaries use equipment type, broad city, and completion month; source identifiers and detailed evidence remain outside the public repository |
+| 82 completed work orders | Completed-history list displayed 82 records on October 31, 2026 | Dated snapshot, not an automatically refreshed count or a claim that every assignment had the same outcome |
 | Owner name: Joey Navarro | Existing personal website and authenticated GitHub profile | Verified public identity |
 | Contact: hello@joeynavarro.io; 915-910-9422 | Owner’s confirmation in this chat | Confirmed company contact |
 | Based in El Paso, Texas | Field Nation profile inspected during this task | Listed location; does not establish a wider service territory |
@@ -18,8 +22,14 @@ The owner’s latest direction makes field IT technician work through Field Nati
 | IT support | Verified profile context | Onsite Windows troubleshooting and computer support |
 | Networks and cabling | Verified profile context | Basic network diagnostics, Ethernet/Cat5/6 cabling, and jack termination |
 | Hardware deployments | Verified profile context | Onsite Windows deployments and hardware/peripheral setup |
+| Printer service: Zebra, Epson poster printers, Fujifilm, and Honeywell | Owner’s explicit service statement in this chat | Owner-supplied brands and service focus; does not establish manufacturer authorization or certification |
+| Low-voltage cabling | Owner’s explicit service statement in this chat | Owner-supplied service; wider network context also appears in the inspected profile |
+| Server setup, including racks | Owner’s explicit service statement in this chat | Owner-supplied service; no specific completed installation claimed |
+| TVs | Owner’s explicit service statement in this chat | Owner-supplied service focus; no customer project or manufacturer relationship claimed |
+| Access-point installation, initialization, and configuration | Owner’s explicit service statement in this chat | Owner-supplied service scope |
+| Computer installation and initialization | Owner’s explicit service statement in this chat | Owner-supplied service scope |
 | Data and technical consulting | Verified profile context | Secondary background context: data analytics and AI consulting |
-| Made theme inspiration | [Theme listing](https://jekyllthemes.io/theme/made-portfolio-jekyll-theme) and [demo](https://made.jekyllthemes.io/) | Visual reference; original implementation, no paid theme source or demo assets |
+| Ukko design reference | [Ukko demo](https://demo.cocobasic.com/ukko-react/?storefront=envato-elements) supplied in the owner’s latest design direction | Original Jekyll implementation inspired by the visible layout and styling; no paid template source or demo assets copied |
 
 The company copy is a first draft for owner review. It must not be treated as evidence of completed work, certifications, service territory, customer relationships, response guarantees, or performance statistics. Add portfolio projects only after the owner supplies project facts and approves any customer-identifying material.
 
